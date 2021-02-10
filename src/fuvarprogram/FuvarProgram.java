@@ -24,17 +24,17 @@ public class FuvarProgram {
         //3.feladat
         hanyadikFeladat(3);
         System.out.println(fuvarok.size() + " fuvar");
-//        //4.feladat
-//        hanyadikFeladat(4);
-//        int db = 0;
-//        double bevetel = 0.0;
-//        for (Fuvar fuvar : fuvarok) {
-//            if (fuvar.getId()==6185) {
-//                db++;
-//                bevetel += fuvar.getDij() + fuvar.getBorra();
-//            }
-//        }
-//        System.out.println(db + " fuvar alatt: " + bevetel + "$");
+        //4.feladat
+        hanyadikFeladat(4);
+        int db = 0;
+        double bevetel = 0.0;
+        for (Fuvar fuvar : fuvarok) {
+            if (fuvar.getId()==6185) {
+                db++;
+                bevetel += fuvar.getDij() + fuvar.getBorra();
+            }
+        }
+        System.out.println(db + " fuvar alatt: " + bevetel + "$");
 //        //5.feladat
 //        hanyadikFeladat(5);
         
